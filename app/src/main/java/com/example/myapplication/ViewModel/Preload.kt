@@ -21,6 +21,7 @@ class Preload : AppCompatActivity() {
             kotlin.run {
                 val intent = Intent(this, Home::class.java)
                 startActivity(intent)
+                finish()
             }
         },1000)
 
