@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Preload_1">Active Productivity</string>
+    <string name="Preload_2">Notes and tasks in one place</string>
 </resources>
