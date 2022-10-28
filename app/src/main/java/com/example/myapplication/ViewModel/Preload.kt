@@ -5,14 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
+import com.example.myapplication.Features.LOG
 import com.example.myapplication.R
 import com.example.myapplication.ViewModel.Home.Home
 
 class Preload : AppCompatActivity() {
+
+    var NameClass = "Preload"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_preload)
-
+        LOG.Info(NameClass,"Inicio de la actividad")
         Handler().postDelayed(Runnable {
             kotlin.run {
                 val intent = Intent(this, Home::class.java)
@@ -20,6 +24,5 @@ class Preload : AppCompatActivity() {
             }
         },1000)
 
-        Log.i("MainActivity","Lanzando layout")
     }
 }
