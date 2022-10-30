@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/Trasparente"
+    tools:context=".ViewModel.Login.CreateAccount">
+
+    <TextView
+        android:id="@+id/CreateAccount_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_4"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CreateAccount_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/Trasparente"
+        android:ems="10"
+        android:foreground="@drawable/edit_text_theme1_c1"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount_3"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_3"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_3" />
+
+    <EditText
+        android:id="@+id/CreateAccount_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/Trasparente"
+        android:ems="10"
+        android:foreground="@drawable/edit_text_theme1_c1"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/CreateAccount_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount_2"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_2"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_2" />
+
+    <TextView
+        android:id="@+id/CreateAccount_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount_3"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_3"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_3" />
+
+    <Button
+        android:id="@+id/CreateAccount_6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_theme1_c1"
+        android:text="Button"
+        android:textColor="@color/Theme_color_text"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_7"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_7"
+        app:layout_constraintTop_toBottomOf="@+id/CreateAccount_7" />
+
+    <CheckBox
+        android:id="@+id/CreateAccount_7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="CheckBox"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_3"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_3"
+        app:layout_constraintTop_toBottomOf="@+id/CreateAccount_3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/CreateAccount_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.47" />
+
+    <ImageView
+        android:id="@+id/CreateAccount_9"
+        android:layout_width="365dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateAccount_6"
+        app:srcCompat="@drawable/hello_rafiki" />
+
+    <TextView
+        android:id="@+id/CreateAccount_10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/CreateAccount_1"
+        app:layout_constraintStart_toStartOf="@+id/CreateAccount_1"
+        app:layout_constraintTop_toBottomOf="@+id/CreateAccount_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
