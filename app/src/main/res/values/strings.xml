@@ -12,5 +12,19 @@
     <string name="Login_8">Create Account</string>
     <string name="Login_9">Everything at your fingertips</string>
     <string name="Login_10">Activity Productivity by Jajomofra v1.0</string>
+    <string name="CreateAccount_1">Hi!</string>
+    <string name="CreateAccount_2">Create a new account</string>
+    <string name="CreateAccount_3">Mail</string>
+    <string name="CreateAccount_4">Password</string>
+    <string name="CreateAccount_5">Accept all privacy policies</string>
+    <string name="CreateAccount_6">Next</string>
+    <string name="UserData_1">Ready for the experience</string>
+    <string name="UserData_2">We want to know more about you</string>
+    <string name="UserData_3">Name</string>
+    <string name="UserData_4">Last name</string>
+    <string name="UserData_5">Phone</string>
+    <string name="UserData_6">Lets go</string>
+
+
 
 </resources>

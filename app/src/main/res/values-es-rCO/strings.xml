@@ -13,4 +13,16 @@
     <string name="Login_10">Actividad Productividad por Jajomofra v1.0</string>
     <string name="Login_7">Iniciar sesión</string>
     <string name="Login_8">Crear una cuenta</string>
+    <string name="CreateAccount_1">¡Hola!</string>
+    <string name="CreateAccount_2">Crea una cuenta nueva</string>
+    <string name="CreateAccount_3">Correo</string>
+    <string name="CreateAccount_4">Contraseña</string>
+    <string name="CreateAccount_5">Acepto todas las políticas de privacidad</string>
+    <string name="CreateAccount_6">Próximo</string>
+    <string name="UserData_1">Listo para la experiencia</string>
+    <string name="UserData_2">Queremos saber más de ti</string>
+    <string name="UserData_3">Nombre</string>
+    <string name="UserData_4">Apellido</string>
+    <string name="UserData_5">Teléfono</string>
+    <string name="UserData_6">Vamos</string>
 </resources>
