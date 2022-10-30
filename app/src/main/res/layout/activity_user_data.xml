@@ -15,40 +15,40 @@
         app:layout_constraintGuide_percent="0.27" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/UserData_1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_4"
+        app:layout_constraintStart_toStartOf="@+id/UserData_4"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/UserData_2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintEnd_toEndOf="@+id/UserData_1"
+        app:layout_constraintStart_toStartOf="@+id/UserData_1"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/UserData_3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="TextView"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName" />
+        app:layout_constraintBottom_toTopOf="@+id/UserData_4"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_4"
+        app:layout_constraintStart_toStartOf="@+id/UserData_4" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/UserData_4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
@@ -63,18 +63,18 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/UserData_5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="TextView"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintBottom_toTopOf="@+id/UserData_6"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_6"
+        app:layout_constraintStart_toStartOf="@+id/UserData_6" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/UserData_6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -83,23 +83,23 @@
         android:foreground="@drawable/edit_text_theme1_c1"
         android:inputType="textPersonName"
         android:text="Name"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintEnd_toEndOf="@+id/UserData_4"
+        app:layout_constraintStart_toStartOf="@+id/UserData_4"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_4" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/UserData_7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="TextView"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintBottom_toTopOf="@+id/UserData_8"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_8"
+        app:layout_constraintStart_toStartOf="@+id/UserData_8" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/UserData_8"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -108,19 +108,19 @@
         android:foreground="@drawable/edit_text_theme1_c1"
         android:inputType="textPersonName"
         android:text="Name"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintEnd_toEndOf="@+id/UserData_6"
+        app:layout_constraintStart_toStartOf="@+id/UserData_6"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_6" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/UserData_9"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@drawable/button_theme1_c1"
         android:text="Button"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintEnd_toEndOf="@+id/UserData_8"
+        app:layout_constraintStart_toStartOf="@+id/UserData_8"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
