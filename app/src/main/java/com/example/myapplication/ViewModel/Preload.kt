@@ -8,6 +8,7 @@ import android.util.Log
 import com.example.myapplication.Features.LOG
 import com.example.myapplication.R
 import com.example.myapplication.ViewModel.Home.Home
+import com.example.myapplication.ViewModel.Login.Login
 
 class Preload : AppCompatActivity() {
 
@@ -19,7 +20,7 @@ class Preload : AppCompatActivity() {
         LOG.Info(NameClass,"Inicio de la actividad")
         Handler().postDelayed(Runnable {
             kotlin.run {
-                val intent = Intent(this, Home::class.java)
+                val intent = Intent(this, Login::class.java)
                 startActivity(intent)
                 finish()
             }
