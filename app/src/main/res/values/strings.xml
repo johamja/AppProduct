@@ -2,4 +2,15 @@
     <string name="app_name">My Application</string>
     <string name="Preload_1">Active Productivity</string>
     <string name="Preload_2">Notes and tasks in one place</string>
+    <string name="Login_1">Welcome</string>
+    <string name="Login_2">It is a pleasure to have you in our application</string>
+    <string name="Login_3">Mail</string>
+    <string name="Login_4">Password</string>
+    <string name="Login_5">Accept all privacy policies</string>
+    <string name="Login_6">Do not you remember your password?</string>
+    <string name="Login_7">log in</string>
+    <string name="Login_8">Create Account</string>
+    <string name="Login_9">Everything at your fingertips</string>
+    <string name="Login_10">Activity Productivity by Jajomofra v1.0</string>
+
 </resources>

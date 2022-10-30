@@ -3,4 +3,14 @@
     <string name="app_name">My Application</string>
     <string name="Preload_2">Notas y tareas en un solo lugar</string>
     <string name="Preload_1">Productividad Activa</string>
+    <string name="Login_1">Bienvenido</string>
+    <string name="Login_2">Es un placer tenerte en nuestra aplicación</string>
+    <string name="Login_3">Correo</string>
+    <string name="Login_4">Contraseña</string>
+    <string name="Login_5">Acepta todas las políticas de privacidad</string>
+    <string name="Login_6">No recuerdas tu contraseña?</string>
+    <string name="Login_9">Todo a tu alcance</string>
+    <string name="Login_10">Actividad Productividad por Jajomofra v1.0</string>
+    <string name="Login_7">Iniciar sesión</string>
+    <string name="Login_8">Crear una cuenta</string>
 </resources>
