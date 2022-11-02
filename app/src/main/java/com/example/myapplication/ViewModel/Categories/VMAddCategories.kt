@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapplication.R
 
-class DeleteCategories : AppCompatActivity() {
+class VMAddCategories : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_delete_categories)
+        setContentView(R.layout.activity_add_categories)
     }
 }
