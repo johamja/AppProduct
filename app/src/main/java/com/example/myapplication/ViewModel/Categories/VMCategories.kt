@@ -16,8 +16,11 @@ class VMCategories : AppCompatActivity() {
 
 
     val ListCategories = listOf<Categories>(
-        Categories("Favoritos","descripcion", Color.valueOf(12F, 12F, 12F),1),
-        Categories("Mi dia","descripcion", Color.valueOf(12F, 12F, 12F),2),
+        Categories("Favoritos","descripcion", 1,1),
+        Categories("Mi dia","descripcion", 2,2),
+        Categories("Favoritos","descripcion", 3,1),
+        Categories("Mi dia","descripcion", 4,2),
+        Categories("Mi dia","descripcion", 5,2),
     )
 
 

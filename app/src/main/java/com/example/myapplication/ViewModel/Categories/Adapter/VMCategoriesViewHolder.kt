@@ -37,18 +37,17 @@ class VMCategoriesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     val button = view.findViewById<Button>(R.id.ItemCategories_button)
 
     fun render(CategoriesModel: Categories) {
+        var color = 0
+        when (CategoriesModel.color){
+            1 -> color = ContextCompat.getColor(button.context, R.color.Theme_color_1)
+            2 -> color = ContextCompat.getColor(button.context, R.color.Theme_color_2)
+            3 -> color = ContextCompat.getColor(button.context, R.color.Theme_color_3)
+            4 -> color = ContextCompat.getColor(button.context, R.color.Theme_color_4)
+            else -> color = ContextCompat.getColor(button.context, R.color.Theme_color_1);
+        }
         name.text = CategoriesModel.name
         description.text = CategoriesModel.description
-
-        if (CategoriesModel.id == 1){
-            val color: Int = ContextCompat.getColor(button.context, R.color.Theme_color_4);
-            //themem.setBackgroundColor(color)
-            themem.background.setTint(color)
-        } else {
-
-        }
-
-
+        themem.background.setTint(color)
 
         // el evento de un click
         button.setOnClickListener {
