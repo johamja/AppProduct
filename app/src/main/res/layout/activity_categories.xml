@@ -24,10 +24,10 @@
         app:layout_constraintGuide_begin="50dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/VMCategories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/VMCategories_1"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -59,7 +59,7 @@
         tools:listitem="@layout/item_category" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/VMCategories_FloatingButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
