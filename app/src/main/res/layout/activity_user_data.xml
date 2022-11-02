@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/Trasparente"
+    tools:context=".ViewModel.Login.UserData">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27" />
+
+    <TextView
+        android:id="@+id/UserData_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/UserData_1"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_4"
+        app:layout_constraintStart_toStartOf="@+id/UserData_4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/UserData_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/UserData_2"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_1"
+        app:layout_constraintStart_toStartOf="@+id/UserData_1"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_1" />
+
+    <TextView
+        android:id="@+id/UserData_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/UserData_3"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/UserData_4"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_4"
+        app:layout_constraintStart_toStartOf="@+id/UserData_4" />
+
+    <EditText
+        android:id="@+id/UserData_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/Trasparente"
+        android:ems="10"
+        android:foreground="@drawable/edit_text_theme1_c1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <TextView
+        android:id="@+id/UserData_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/UserData_4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/UserData_6"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_6"
+        app:layout_constraintStart_toStartOf="@+id/UserData_6" />
+
+    <EditText
+        android:id="@+id/UserData_6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/Trasparente"
+        android:ems="10"
+        android:foreground="@drawable/edit_text_theme1_c1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_4"
+        app:layout_constraintStart_toStartOf="@+id/UserData_4"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_4" />
+
+    <TextView
+        android:id="@+id/UserData_7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/UserData_5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/UserData_8"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_8"
+        app:layout_constraintStart_toStartOf="@+id/UserData_8" />
+
+    <EditText
+        android:id="@+id/UserData_8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/Trasparente"
+        android:ems="10"
+        android:foreground="@drawable/edit_text_theme1_c1"
+        android:inputType="number|textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_6"
+        app:layout_constraintStart_toStartOf="@+id/UserData_6"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_6" />
+
+    <Button
+        android:id="@+id/UserData_9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_theme1_c1"
+        android:text="@string/UserData_6"
+        android:textColor="@color/Theme_color_text"
+        app:layout_constraintEnd_toEndOf="@+id/UserData_8"
+        app:layout_constraintStart_toStartOf="@+id/UserData_8"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_8" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserData_9"
+        app:srcCompat="@drawable/documents_rafiki" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
