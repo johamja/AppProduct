@@ -8,6 +8,8 @@
     </style>
 
     <color name="Trasparente">#00FFFFFF</color>
+    <color name="Thema_color_layout">@color/Text2</color>
+    <color name="colorBackground_2">@color/background2.2</color>
     <color name="Theme_color_text">@color/Text2</color>
 
     <color name="Theme_color_1">@color/ColorNight1</color>
